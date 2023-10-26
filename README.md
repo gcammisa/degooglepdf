@@ -36,3 +36,11 @@ Someone may have uploaded a PDF file to their Google Drive, but set it to view-o
 * Unix-like system (`bash`, `sed`)
 * ImageMagick (`convert`)
 Hint: GNU/Linux users have that, Mac users just need to install ImageMagick via MacPorts or Homebrew.
+
+### Requirements for windows users
+On windows you need to manually install all the required dependecies:
+* ImageMagick: https://imagemagick.org/script/download.php#windows
+* sed: https://gnuwin32.sourceforge.net/packages/sed.htm
+* base64: https://www.di-mgt.com.au/base64-for-windows.html#downloads
+
+If you're on windows, you should run `mkpdf.ps1` in a Powershell console instead of `mkpdf.sh`
